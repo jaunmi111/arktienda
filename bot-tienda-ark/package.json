@@ -1,9 +1,10 @@
 {
-  "name": "nodejs",
+ "name": "nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +14,4 @@
     "@types/node": "^22.13.11",
     "discord.js": "^14.19.3",
     "dotenv": "^16.5.0"
-  }
 }
